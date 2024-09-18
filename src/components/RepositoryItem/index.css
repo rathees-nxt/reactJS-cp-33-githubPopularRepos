@@ -1,0 +1,48 @@
+/* Write your CSS here */
+.repo-card-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f8f8ff;
+  font-family: roboto;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+.card-img {
+  width: 70px;
+}
+.card-heading {
+  font-size: 20px;
+  color: #e73959;
+  font-weight: 500;
+}
+.stars-container {
+  display: flex;
+  align-items: center;
+  width: 90%;
+}
+.star-img {
+  width: 20px;
+  margin-right: 10px;
+}
+.star-para {
+  font-size: 14px;
+  color: #1e293b;
+}
+@media screen and (min-width: 576px) {
+  .repo-card-item {
+    flex-basis: 45%;
+  }
+}
+@media screen and (min-width: 992px) {
+  .repo-card-item {
+    flex-basis: 30%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .repo-card-item {
+    flex-basis: 20%;
+  }
+}

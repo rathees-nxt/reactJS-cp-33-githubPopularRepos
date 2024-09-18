@@ -1,0 +1,28 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+.repo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+}
+.app-heading {
+  font-family: lobster;
+  font-size: 30px;
+  color: #0f172a;
+}
+.language-list-container {
+  display: flex;
+  list-style-type: none;
+  padding: 0px;
+}
+.repository-list-card {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
